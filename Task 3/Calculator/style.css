@@ -1,0 +1,30 @@
+table{
+    background-color:gray;
+    margin-left: 35%;
+    margin-top: 15%;
+    border: 2px;
+    border-style: solid;
+border-radius: 5%;
+}
+input{
+        font-size: 100%;
+        border-color: black;
+        border-width: 2px;
+        border-style:groove;
+        padding: 5px;
+        font-weight: bold;  
+        border-radius: 5%;
+        background-color:darkslategrey;
+        color: white;
+}
+button{
+    height:15% ;
+    width: 25%;
+    display:grid;
+    
+}
+
+tr,td{
+    text-align: center;
+}
+
