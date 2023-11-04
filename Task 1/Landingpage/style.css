@@ -1,0 +1,163 @@
+*{ 
+    margin: 0;
+    padding: 0px;
+    
+}   
+
+nav{
+    
+    color: black;
+    padding: 25px;
+    font-size: larger;
+    background-color: gray;
+      
+}
+
+h1{
+    padding: 15px;
+display: inline;
+}
+
+li,ul{
+    display:inline;
+}
+
+ul{
+    margin-left: 50%;
+}
+
+li{
+    color: black;
+    cursor: pointer;
+}
+a{ 
+    color: black;
+}
+
+a:hover{
+    color: white;
+} 
+hr{
+    border-style: solid;
+    padding: 10px;
+}
+h2{ 
+    color: gray;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color:white;
+    display: block;   
+}
+h3{
+    color: black;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    display: block;
+    
+    background-color:white;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+ .image{
+    padding: 65px;
+ } 
+  
+  
+.text {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px;
+    
+}
+h4{
+    padding:5px;
+}
+.box{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 400px;
+}
+input{
+    border-color: black;
+    border-width: 2px;
+    border-style:groove;
+    padding: 5px;
+    
+}
+.btn {
+    display: inline-block;
+    background-color:darkslategray;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:darkseagreen;
+}
+h6{
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    text-align: center;
+}
+.img{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+    height:300px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: gray;
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+tr{
+    padding:10px;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info-item {
+    
+    text-align: left;
+    padding: 20px;
+    
+}
+
+.info-item h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    font-size: 16px;
+    
+}
